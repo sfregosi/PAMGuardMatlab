@@ -192,7 +192,7 @@ try
                         fileInfo.objectType=2000;
                         fileInfo.readModuleHeader=@readWMDHeader;
                         fileInfo.readModuleData=@readWMDData;
-                        fileInfo.readBackgroundData = @readSpectralBackground
+                        fileInfo.readBackgroundData = @readSpectralBackground;
                     
                     % Ipi module
                     case 'Ipi module'
