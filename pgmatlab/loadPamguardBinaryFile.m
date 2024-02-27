@@ -175,8 +175,8 @@ try
                     case 'GPL Detector'
                         switch fileInfo.fileHeader.streamName
                             case 'GPL Detections'
-                                fileInfo.readModuleData = @readGPLDetections
-                                fileInfo.readBackgroundData = @readSpectralBackground
+                                fileInfo.readModuleData = @readGPLDetections;
+                                fileInfo.readBackgroundData = @readSpectralBackground;
                         end
                     % Right Whale Edge Detector Module
                     case 'RW Edge Detector'
